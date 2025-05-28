@@ -1,0 +1,51 @@
+Come funzionerebbe la tua app web
+
+    Una pagina principale con un calendario in griglia (puoi usare librerie JS tipo FullCalendar o costruirlo da zero).
+
+    Cliccando su un giorno si apre una finestra/modale per inserire entrate e uscite.
+
+    I dati vengono salvati nel browser (localStorage o IndexedDB), così restano lì anche chiudendo il browser.
+
+    Puoi mostrare i totali giornalieri, mensili, ecc. con semplici calcoli JS.
+
+    Interfaccia responsive per funzionare bene sia su desktop che su mobile.
+
+Punti da considerare
+
+    Non hai bisogno di configurazioni complicate: basta un semplice editor di testo e un browser.
+
+    Se vuoi accesso multi-dispositivo o backup, serve un backend o servizio cloud (ma non è indispensabile per uso personale).
+
+    Puoi migliorare l’app gradualmente, aggiungendo funzionalità o magari un piccolo backend con Node.js o Firebase.
+
+Ecco un esempio base di web app semplice con HTML, CSS e JavaScript che mostra:
+
+    Un calendario in griglia con i giorni del mese corrente
+
+    Cliccando su un giorno si apre una finestra per inserire entrate e uscite
+
+    I dati si salvano in localStorage (quindi rimangono anche dopo il refresh)
+
+    Mostra il totale delle entrate e uscite per ogni giorno
+
+Cliccando su un giorno, si apre una finestra con due pulsanti: Entrate e Uscite
+
+Cliccando su Entrate si apre una sezione dove puoi aggiungere più righe con importi di entrate
+
+Cliccando su Uscite si apre una sezione simile per aggiungere più uscite
+
+Ogni sezione ha un bottone Aggiungi Entrata / Aggiungi Uscita per creare più righe
+
+I totali di tutte le entrate e di tutte le uscite si calcolano e si mostrano sul giorno nel calendario
+
+I dati si salvano sempre in localStorage
+
+All’apertura mostra una griglia 3x4 con i mesi (Gennaio, Febbraio, …)
+
+Cliccando su un mese appare la griglia dei giorni di quel mese, senza celle vuote
+
+Dal calendario del mese puoi tornare indietro alla selezione dei mesi
+
+I giorni sono cliccabili e aprono il modal con entrate/uscite come prima
+
+Per ora uso l’anno corrente (puoi modificarlo facilmente)

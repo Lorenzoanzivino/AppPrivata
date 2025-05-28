@@ -1,0 +1,23 @@
+1. Descrizione del progetto:
+    Voglio creare un’app iPhone per uso personale che funzioni come agenda per registrare entrate e uscite economiche di ogni mese.
+
+2. Funzionalità principali:
+    2.1. Visualizzare i giorni del mese in una griglia (come un calendario).
+    2.2. Aggiungere/modificare entrate e uscite cliccando su un giorno.
+    2.3. Inserire dati in modo simile a un foglio Excel (riga per riga).
+    2.4. Calcolare e mostrare il totale delle entrate e delle uscite giornaliere.
+
+3. Tecnologia e ambiente di sviluppo:
+    Ho conoscenze base di Python e utilizzo VSCode su una macchina virtuale Ubuntu su HP. Vorrei sapere se posso usare Python (ad esempio con Kivy) o se è meglio un altro approccio per iPhone.
+
+4. Livello di conoscenza e risorse:
+    Parto da zero per questa app. Ho bisogno di guida passo passo, con esempi e spiegazioni semplici.
+
+5. Dettagli tecnici o preferenze:
+    5.1. Interfaccia grafica semplice e pulita, focalizzata su usabilità.
+    5.2. Salvataggio dati in locale, preferibilmente con SQLite o file JSON.
+    5.3. No backend o sincronizzazione cloud per ora.
+
+6. Obiettivi a breve e lungo termine:
+    6.1. A breve: creare un prototipo funzionante con funzionalità base.
+    6.2. A lungo termine: migliorare design e applicare best practice di sviluppo.
