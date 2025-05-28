@@ -42,17 +42,12 @@ git clone https://github.com/tuo-username/agenda-economica.git
 
 ## 📥 Installazione e uso
 
-    - 📊 Calcolo e visualizzazione dei totali mensili e annuali.
-
-    - 📁 Esportazione e importazione dei dati in formati CSV o JSON.
-
-    - ☁️ Backup e sincronizzazione cloud per accesso multi-dispositivo.
-
-    - 🏷️ Aggiunta di categorie personalizzate per entrate e uscite.
-
-    - 🎨 Evidenziazione visiva dei giorni con saldo positivo o negativo.
-
-    - 📅 Supporto per più anni e gestione dati storici.
+- 📊 Calcolo e visualizzazione dei totali mensili e annuali.
+- 📁 Esportazione e importazione dei dati in formati CSV o JSON.
+- ☁️ Backup e sincronizzazione cloud per accesso multi-dispositivo.
+- 🏷️ Aggiunta di categorie personalizzate per entrate e uscite.
+- 🎨 Evidenziazione visiva dei giorni con saldo positivo o negativo.
+- 📅 Supporto per più anni e gestione dati storici.
 
 ## 🤝 Contributi
 
