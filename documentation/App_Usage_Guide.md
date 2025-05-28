@@ -6,11 +6,13 @@
 
 🔘 Ogni mese è rappresentato da un pulsante cliccabile.
 
+
 ## 2. 🕹️ Selezione del Mese
 
 👉 Cliccando su un mese, la vista cambia mostrando tutti i giorni di quel mese in una griglia 7xN (7 colonne per i giorni della settimana).
 
 🟦 Ogni giorno è un "blocco" cliccabile.
+
 
 ## 3. ✍️ Visualizzazione e inserimento dati giornalieri
 
@@ -24,6 +26,7 @@
 
 🔢 I dati inseriti sono numeri decimali (es. 12.50 €).
 
+
 ## 4. 💾 Salvataggio dei dati
 
 🗄️ Tutte le informazioni vengono salvate localmente nel browser usando localStorage.
@@ -32,11 +35,13 @@
 
 🗂️ I dati sono organizzati per data, nel formato YYYY-MM-DD come chiave (es. "2025-05-28") e contengono due liste separate: income (entrate) e expense (uscite).
 
+
 ## 5. 🔄 Navigazione
 
 🔙 Puoi tornare alla visualizzazione dei mesi cliccando il pulsante "Torna alla selezione mesi".
 
 ❎ Nel modale puoi chiudere con il pulsante "X".
+
 
 ## 6. 🎨 UI e UX
 
@@ -48,6 +53,7 @@
 
 ---
 
+
 # 🚀 Come potresti usarla
 
 - 📈 Per tenere traccia delle tue entrate e uscite giornaliere.  
@@ -56,6 +62,7 @@
 - 🚫 Senza dover usare app complesse o database esterni.
 
 ---
+
 
 # 🌟 Possibili miglioramenti futuri
 
