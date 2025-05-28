@@ -34,8 +34,8 @@ L’interfaccia simula un calendario, consentendo di aggiungere, modificare e vi
 
 ## 📥 Installazione e uso
 
-```bash
-git clone https://github.com/tuo-username/agenda-economica.git
+```bash 
+git clone https://github.com/tuo-username/agenda-economica.git 
 ```
 - Apri il file index.html con un browser moderno (Chrome, Firefox, Edge).
 - Inizia a usare l’app senza bisogno di alcun backend o configurazione aggiuntiva.
