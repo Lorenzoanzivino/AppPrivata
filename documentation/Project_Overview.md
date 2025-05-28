@@ -11,16 +11,16 @@ Ho creato una web app per uso personale che funziona come agenda per registrare 
 
 ## 🛠️ Tecnologia e ambiente di sviluppo
 
-    - Per sviluppare la web app ho utilizzato: 
-        - **HTML**
-        - **CSS**
-        - **JavaScript**
+- Per sviluppare la web app ho utilizzato: 
+    - **HTML**
+    - **CSS**
+    - **JavaScript**
 
-    - Lavoro su :
-        - **VSCode** 
+- Lavoro su :
+    - **VSCode** 
 
-    - Ambiente su una macchina virtuale HP :
-        - **Ubuntu**   
+- Ambiente su una macchina virtuale HP :
+    - **Ubuntu**
 
 
 ## 📚 Livello di conoscenza e risorse
