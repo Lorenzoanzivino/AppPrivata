@@ -1,51 +1,72 @@
-Come funzionerebbe la tua app web
+Come funziona la tua app web
+1. Visualizzazione Mesi e Giorni
 
-    Una pagina principale con un calendario in griglia (puoi usare librerie JS tipo FullCalendar o costruirlo da zero).
+    Quando apri la pagina, vedi una griglia con i 12 mesi dell'anno corrente.
 
-    Cliccando su un giorno si apre una finestra/modale per inserire entrate e uscite.
+    Ogni mese è rappresentato da un pulsante cliccabile.
 
-    I dati vengono salvati nel browser (localStorage o IndexedDB), così restano lì anche chiudendo il browser.
+2. Selezione del Mese
 
-    Puoi mostrare i totali giornalieri, mensili, ecc. con semplici calcoli JS.
+    Cliccando su un mese, la vista cambia mostrando tutti i giorni di quel mese in una griglia 7xN (7 colonne per i giorni della settimana).
 
-    Interfaccia responsive per funzionare bene sia su desktop che su mobile.
+    Ogni giorno è un "blocco" cliccabile.
 
-Punti da considerare
+3. Visualizzazione e inserimento dati giornalieri
 
-    Non hai bisogno di configurazioni complicate: basta un semplice editor di testo e un browser.
+    Se per un giorno ci sono già registrazioni (entrate o uscite), sotto al numero del giorno vedi il totale delle entrate (in verde) e delle uscite (in rosso).
 
-    Se vuoi accesso multi-dispositivo o backup, serve un backend o servizio cloud (ma non è indispensabile per uso personale).
+    Cliccando su un giorno si apre un modale (finestra popup) dove puoi:
 
-    Puoi migliorare l’app gradualmente, aggiungendo funzionalità o magari un piccolo backend con Node.js o Firebase.
+        Visualizzare e modificare le entrate e le uscite di quel giorno.
 
-Ecco un esempio base di web app semplice con HTML, CSS e JavaScript che mostra:
+        Aggiungere nuove entrate o uscite (cliccando su "Aggiungi Entrata" o "Aggiungi Uscita").
 
-    Un calendario in griglia con i giorni del mese corrente
+        Eliminare voci esistenti.
 
-    Cliccando su un giorno si apre una finestra per inserire entrate e uscite
+    I dati inseriti sono numeri decimali (es. 12.50 €).
 
-    I dati si salvano in localStorage (quindi rimangono anche dopo il refresh)
+4. Salvataggio dei dati
 
-    Mostra il totale delle entrate e uscite per ogni giorno
+    Tutte le informazioni vengono salvate localmente nel browser usando localStorage.
 
-Cliccando su un giorno, si apre una finestra con due pulsanti: Entrate e Uscite
+    Questo significa che i dati restano salvati anche chiudendo e riaprendo la pagina, ma solo sullo stesso browser e dispositivo.
 
-Cliccando su Entrate si apre una sezione dove puoi aggiungere più righe con importi di entrate
+    I dati sono organizzati per data, nel formato YYYY-MM-DD come chiave (es. "2025-05-28") e contengono due liste separate: income (entrate) e expense (uscite).
 
-Cliccando su Uscite si apre una sezione simile per aggiungere più uscite
+5. Navigazione
 
-Ogni sezione ha un bottone Aggiungi Entrata / Aggiungi Uscita per creare più righe
+    Puoi tornare alla visualizzazione dei mesi cliccando il pulsante "Torna alla selezione mesi".
 
-I totali di tutte le entrate e di tutte le uscite si calcolano e si mostrano sul giorno nel calendario
+    Nel modale puoi chiudere con il pulsante "X".
 
-I dati si salvano sempre in localStorage
+6. UI e UX
 
-All’apertura mostra una griglia 3x4 con i mesi (Gennaio, Febbraio, …)
+    Il design è semplice, pulito e responsive (funzionerà anche su schermi piccoli).
 
-Cliccando su un mese appare la griglia dei giorni di quel mese, senza celle vuote
+    I colori aiutano a distinguere entrate (verde) e uscite (rosso).
 
-Dal calendario del mese puoi tornare indietro alla selezione dei mesi
+    La selezione tra "Entrate" e "Uscite" nel modale avviene con due tab (bottoni) per facilitare l’inserimento.
 
-I giorni sono cliccabili e aprono il modal con entrate/uscite come prima
+Come potresti usarla
 
-Per ora uso l’anno corrente (puoi modificarlo facilmente)
+    Per tenere traccia delle tue entrate e uscite giornaliere.
+
+    Visualizzare facilmente i totali per ogni giorno.
+
+    Consultare e modificare i dati in modo semplice e rapido.
+
+    Senza dover usare app complesse o database esterni.
+
+Possibili miglioramenti futuri
+
+    Totali mensili e annuali con riepiloghi.
+
+    Esportazione/importazione dati (es. CSV o JSON).
+
+    Backup e sincronizzazione su cloud per accesso multi-dispositivo.
+
+    Aggiungere categorie per entrate e uscite.
+
+    Calendario con evidenza visiva dei giorni con saldo positivo o negativo.
+
+    Gestione di più anni.
